@@ -7,6 +7,27 @@
     <title>Contact Us</title>
 </head>
 <body>
-    
+    <form action="server.php">
+        <fieldset style="width:600px">
+            <!-- added inline style of "width" ^^^ and "align" -->
+            <legend align="center"><strong>Contact Us</strong></legend>
+            Name: <br>
+            <input type="text" name="firstname lastname" value="" required><br>
+            Email: <br>
+            <input type="email" name="email address" value="" required><br>
+            Message: <br>
+            <textarea name="message" id="message" cols="50" rows="10" required></textarea>
+            <br>
+            <label for="prioritySelect">Priority:</label> <br>
+            <select name="priority" id="prioritySelect">
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
 </body>
 </html>
