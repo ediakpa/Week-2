@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../Assets/darkgreen_silk.jpg);
+    background-size: 150%;
+}
+/* ^^ The "../" for placing the image 
+makes the difference as far as going back a path */
+
+html {
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.container {
+    max-width: 100rem;
+    margin-inline: auto;
+    padding-inline: 2em;
+}
+
+.top-navigation {
+    background-color: rgb(255, 192, 203, 0.4);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5em;
+    /* opacity: 0.2; */
+}
+
+.top-navigation-left img {
+    width: 20%;
+}
+
+.top-navigation-left {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.top-navigation-links {
+    display: flex;
+    gap: 5em;
+}
+
+.top-navigation-links a {
+    text-decoration: none;
+    color: rgb(212, 16, 130);
+    font-size: 15px;
+}
+
+.top-navigation-right {
+    display: flex;
+    gap: 1em;
+    align-items: flex-end;
+    padding-right: 5px;
+}
+
+.top-navigation-right img {
+    width: 20px;
+    /* width: 10%; */
+    cursor: pointer;
+}
+
+.image img {
+    border-radius: 30px;
+    width: 30%;
+}
