@@ -18,7 +18,7 @@ html {
 }
 
 .top-navigation {
-    background-color: rgb(255, 192, 203, 0.4);
+    background-color: rgba(243, 82, 149, 0.26);
     width: 100%;
     padding: 10px;
     display: flex;
