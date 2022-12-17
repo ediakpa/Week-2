@@ -11,6 +11,10 @@ html {
     font-family: 'Lucida Sans', sans-serif;
 }
 
+.container2 {
+    overflow: hidden;
+}
+
 .top-navigation {
     background-color: rgba(182, 73, 118, 0.253);
     width: 100%;
