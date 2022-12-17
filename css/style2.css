@@ -1,0 +1,68 @@
+body {
+    margin: auto;
+    padding: 0;
+    background-image: url(../Assets/darkgreen_silk.jpg);
+    color:  rgb(219, 180, 73);
+}
+
+html {
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.top-navigation {
+    background-color: rgba(182, 73, 118, 0.253);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5em;
+    /* opacity: 0.2; */
+}
+
+.top-navigation-left img {
+    width: 20%;
+}
+
+.top-navigation-left {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.top-navigation-links {
+    display: flex;
+    gap: 5em;
+}
+
+.top-navigation-links a {
+    text-decoration: none;
+    color: rgb(219, 180, 73);
+    font-size: 15px;
+}
+
+.top-navigation-right {
+    display: flex;
+    gap: 1em;
+    align-items: flex-end;
+    padding-right: 20px;
+}
+
+.top-navigation-right img {
+    width: 20px;
+    /* width: 10%; */
+    cursor: pointer;
+}
+
+footer {
+    color: blueviolet;
+}
+
+footer button {
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    width: 90px;
+    padding: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}

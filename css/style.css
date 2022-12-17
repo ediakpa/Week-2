@@ -1,8 +1,8 @@
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     background-image: url(../Assets/darkgreen_silk.jpg);
-    background-size: 150%;
+    /* background-size: 200%; */
 }
 /* ^^ The "../" for placing the image 
 makes the difference as far as going back a path */
@@ -11,14 +11,8 @@ html {
     font-family: 'Lucida Sans', sans-serif;
 }
 
-.container {
-    max-width: 100rem;
-    margin-inline: auto;
-    padding-inline: 2em;
-}
-
 .top-navigation {
-    background-color: rgba(243, 82, 149, 0.26);
+    background-color: rgba(182, 73, 118, 0.253);
     width: 100%;
     padding: 10px;
     display: flex;
@@ -44,7 +38,7 @@ html {
 
 .top-navigation-links a {
     text-decoration: none;
-    color: rgb(212, 16, 130);
+    color: rgb(219, 180, 73);
     font-size: 15px;
 }
 
@@ -52,7 +46,7 @@ html {
     display: flex;
     gap: 1em;
     align-items: flex-end;
-    padding-right: 5px;
+    padding-right: 20px;
 }
 
 .top-navigation-right img {
@@ -61,7 +55,78 @@ html {
     cursor: pointer;
 }
 
-.image img {
+.container {
+    /* max-width: 100rem;
+    margin-inline: auto; */
+    padding-inline: 2em;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+}
+
+/* .image img {
     border-radius: 30px;
     width: 30%;
+} */
+
+/* img {
+    width: 80%;
+} */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    justify-content: center;
+    border: 4px solid;
+    border-radius: 30px;
+    border-color: rgba(255, 192, 203, 0.253);
+    background-color: rgba(173, 86, 127, 0.411);
+}
+
+.grid-item {
+    /* background-color: rgba(0, 255, 255, 0.432);
+    border: 2px solid;
+    border-color: blue; */
+    text-align: center;
+    padding: 10px;
+    color: rgb(207, 178, 9);
+}
+
+.grid-item img {
+    width: 100%;
+    /* aspect-ratio: 1 / 1; */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.grid-item a {
+    text-decoration: none;
+    color: rgb(207, 178, 9);
+}
+
+.grid-item button {
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    padding: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    color: blueviolet;
+}
+
+footer button {
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    width: 90px;
+    padding: 1em;
+    border-radius: 5px;
+    cursor: pointer;
 }
